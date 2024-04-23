@@ -1,0 +1,41 @@
+<!--Certificate Wrapper-->
+<div class="certificate-wrapper">
+
+    <!--Certificate background-->
+    <div class="certificate-background">
+        <div class="recttop"></div>
+        <div class="recttop1"></div>
+        <div class="rectright"></div>
+        <div class="rectright2"></div>
+        <div class="rectbtm"></div>
+        <div class="rectbtm1"></div>
+        <div class="rectbtm2"></div>
+        <div class="rectbtm3"></div>
+        <div class="rectbtm4"></div>
+        <div class="rectright1"></div>
+        <div class="boxbtm"></div>
+        <div class="rating">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
+        <div class="crown"></div>
+    </div>
+    
+    <div class="'certificate'">
+        <div Class="certificate">
+            <div [ngClass]="config.certificateNumber">Certificate Number: {{ Data.certificateNumber }}</div>
+            <img [ngClass]="config.companyLogo" [src]="Data.companyLogo" alt="Company Logo">
+            <img [ngClass]="config.certificateLogo" [src]="Data.certificateLogo" alt="Certificate Logo">
+            <h1>CERTIFICATE</h1>
+            <h2>Certificate of Achievement</h2>
+            <p>This is to certify that</p>
+            <div [ngClass]="config.recipientName">{{ Data.recipientName }}</div>
+            <p>has successfully completed the course on</p>
+            <div [ngClass]="config.courseName">{{ Data.courseName}}</div>
+            <div [ngClass]="config.completionDate">Date of completion: {{ Data.completionDate }}</div>
+            <img [ngClass]="config.presidentSignature" [src]="Data.presidentSignature" alt="Signature">
+            <div [ngClass]="config.sign-president">Signature of President</div>
+            <img [ngClass]="config.directorSignature" [src]="Data.directorSignature" alt="Signature">
+            <div [ngClass]="config.sign-director">Signature of Director</div>
+            <div [ngClass]="config.orgName">{{ Data.orgName }}</div>
+            <div [ngClass]="config.orgAddress">{{ Data.orgAddress }}</div>
+        </div>
+</div>
+
