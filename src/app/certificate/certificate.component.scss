@@ -177,13 +177,20 @@
         margin: auto;
        
     }
-  
-    .certificate-wrapper .certificate.candidateName {
-       font-family: name;
-        font-size: 40pt;
-        color: #000080 !important;
+.course {
+      color: #806600 !important;
+       // font-family: certificate;
+        font-size: 20pt;
         text-align: center;
-         margin: auto;
+        margin: auto;
+       
+    }
+  
+.candidateName {
+      font-size: 40pt;
+      color: #000080 !important;
+      text-align: center;
+       margin: auto;
         
     }
   
