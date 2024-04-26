@@ -1,14 +1,28 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+
+import { AppComponent } from './app.component';
+import { DisplayDesignComponent } from './display-design/display-design.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    DisplayDesignComponent ],
+  imports: [
+    BrowserModule,
+    HttpClientModule
+  ],
+  providers: []
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { CertificateComponent } from './certificate/certificate.component';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet,CertificateComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  template: '<app-display-design></app-display-design>',
 })
-export class AppComponent {
-  title = 'certificate';
-}
+export class AppComponent {}
