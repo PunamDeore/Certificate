@@ -1,0 +1,172 @@
+@media all {
+	body.printView, body.printView:before, body.printView:after { 
+		border : none !important;
+	}
+
+	body {
+		background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+	}
+
+	.certificate-wrapper {
+	  overflow: hidden;
+	  width: 297mm;
+	  height: 210mm;
+	  position: relative;
+	  line-height: normal;
+	  margin:auto;
+	  background-color: white;
+	  z-index: 1;
+	}
+
+	.certificate-wrapper .certificate-background {
+	  left: 0mm;
+	  top: auto;
+	  width: 297mm;
+	  height: 210mm;
+	  overflow: hidden;
+	  position: relative;
+	}
+
+	.certificate-wrapper .certificate-background .boxx {
+	  width: 277mm;
+	  height: 190mm;
+	  opacity: 0.2;
+	  border:4px solid black !important;
+	  position: absolute;
+	  margin-top: 9mm;
+	  margin-left: 9mm;	  
+	}
+	.certificate-wrapper .certificate-background .topbox{
+		width: 100%;
+		height: 6pt;
+		background-color: rgb(0 0 0 / 95%);
+		position: absolute;
+		opacity: 0.8;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+
+	.certificate-wrapper .certificate-background .leftbox{
+		width: 6pt;
+		height: 100%;
+		background-color:rgb(0 0 0 / 95%);
+		position: absolute;
+		opacity: 0.8;
+		top: 0;
+		left: 0;
+	}
+
+	.certificate-wrapper .certificate-background .rightbox{
+		width: 6pt;
+		height: 100%;
+		background-color: rgb(0 0 0 / 95%);
+		position: absolute;
+		opacity: 0.8;
+		top: 0;
+		right: 0;
+	}
+
+	.certificate-wrapper .certificate-background .bottombox{
+		width: 100%;
+		height: 6pt;
+		background-color: rgb(0 0 0 / 95%);
+		position: absolute;
+		opacity: 0.8;
+		bottom: 0;
+		left: 0;
+	}
+
+	.certificate-wrapper .certificate-background .corleft{
+		height: 90pt;
+		width: 15pt;
+		background-color: #F7941D;
+		position: absolute;
+		top: -7pt;
+		left: 0;
+		transform: skewY(-45deg);
+	}
+
+	.certificate-wrapper .certificate-background .cortop{
+		width: 90pt;
+		height: 15pt;
+		background-color: #F7941D;
+		position: absolute;
+		left: -7pt;
+		top: 0;
+		transform: skewX(-45deg);
+		z-index: 1;
+	}
+
+	.certificate-wrapper .certificate-background .corright{
+		height: 90pt;
+		width: 15pt;
+		background-color: #F7941D;
+		position: absolute;
+		top: 513pt;
+		right: 0;
+		transform: skewY(-45deg);
+	}
+
+	.certificate-wrapper .certificate-background .corbtm{
+		height: 15pt;
+		width: 90pt;
+		background-color: #F7941D;
+		position: absolute;
+		right: -7pt;
+		bottom: 0;
+		transform: skewX(-45deg);
+	}
+
+	.certificate-wrapper .certificate-background .bx1{
+		width: 7mm;
+		height: 7mm;
+		background-color: #ffffff;
+		bottom: 122mm;
+		position: absolute;
+		left: 35mm;
+		transform: rotate(45deg);
+		z-index: 1;
+	}
+
+	.certificate-wrapper .certificate-background .bx2{
+		width: 7mm;
+		height: 7mm;
+		background-color: #ffffff;
+		bottom: 122mm;
+		position: absolute;
+		right: 107mm;
+		transform: rotate(45deg);
+		z-index: 1;
+	}
+
+	.certificate-wrapper .certificate-background .verticlebox{
+		height: 73%;
+		background-color:#414143 !important;
+		width: 15%;
+		position: absolute;
+		left: 220mm;
+		top: 0mm;
+	}
+
+	.certificate-wrapper .certificate-background .yellowbox{
+		height: 73%;
+		background-color: #F7941D;
+		width: 3%;
+		position: absolute;
+		left: 256mm;
+		top: 0mm;
+	}
+
+	.certificate-wrapper .certificate-background .circle{
+		height: 223px;
+		background-color: #ffffff;
+		width: 205px;
+		position: absolute;
+		left: 215mm;
+		top: 118mm;
+		border-radius: 50%;
+	}
+}
+
+	 

@@ -1,0 +1,144 @@
+
+@media all{
+	body.printView, body.printView:before, body.printView:after { 
+		border : none !important;
+	}
+	.certificate-wrapper {
+	  overflow: hidden;
+	  width: 297mm;
+	  height: 210mm;
+	  position: relative;
+	  background: #ffffff !important;
+	  line-height: normal;
+	}
+	.certificate-wrapper .certificate-background {
+
+	  right: 0mm;
+	  top: auto;
+	  width: 297mm;
+	  height: 210mm;
+	  overflow: hidden;
+	  position: relative;
+	}
+	.certificate-wrapper .certificate-background .recttop {
+
+	  right: -12mm;
+	  top: 0mm;
+	  width: 170mm;
+	  height: 14.5mm;
+	  background: #003366 !important;
+	  transform: skewX(60deg);
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-background .recttop1 {
+
+	  right:163mm;
+	  top: 0mm;
+	  width: 20mm;
+	  height: 14.5mm;
+	  background: #e6b800 !important;
+	  transform: skewX(60deg);
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-background .rectright {
+	  width: 14.5mm;
+	  height: 60mm;
+	  top: 8mm;
+	  right: 0mm;
+	  background: #003366 !important;
+	  transform: skewY(20deg);
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-background .rectright2 {
+	  width: 14.5mm;
+	  height: 10mm;
+	  top: 68mm;
+	  right: 0mm;
+	  background: #e6b800 !important;
+	  transform: skewY(20deg);
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-background .rectbtm {
+
+	  right: 0mm;
+	  bottom: 0mm;
+	  width: 110mm;
+	  height: 14.5mm;
+	  background: #003366 !important;
+	  transform: skewX(-50deg);
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-background .rectright1 {
+
+	  right:-5mm;
+	  bottom: -5mm;
+	  width: 19.5mm;
+	  height: 60mm;
+	  background: #003366 !important;
+	  transform: skewY(-25deg);
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-background .rectbtm1 {
+
+	  left: 0mm;
+	  width: 14.5mm;
+	  height: 68mm;
+	  bottom: -8mm;
+	  background: #003366 !important;
+	  transform: skewY(20deg);
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-background .rectbtm2 {
+	
+	  width: 170mm;
+	  height: 14.5mm;
+	 bottom: 0mm;
+	  left: 0mm;
+	  background: #003366 !important;
+	  transform: skewX(60deg);
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-background .rectbtm3 {
+
+	  left:170mm;
+	  bottom: 0mm;
+	  width: 20mm;
+	  height: 14.5mm;
+	  background: #e6b800 !important;
+	  transform: skewX(60deg);
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-background .rectbtm4 {
+	  left: 0mm;
+	  width: 14.5mm;
+	  height: 10mm;
+	  bottom: 60mm;
+	  background: #e6b800 !important;
+	  transform: skewY(20deg);
+	  position: absolute;
+	}
+	
+	.certificate-wrapper .certificate-background .boxbtm {
+	position: absolute;
+	  left: 18mm;
+	  top: 18mm;
+	  right: 18mm;
+	  bottom: 18mm;
+	  
+	  border-left: 5pt solid #e6b800 !important;
+	  border-bottom: 5pt solid #e6b800 !important;
+	  border-right: 5pt solid #e6b800 !important;
+	  border-top: 5pt solid #e6b800 !important;
+	}
+	  
+.certificate-wrapper .rating {
+	position: absolute;
+	  left: 0mm;
+	  top: 30mm;
+	  right: 0mm;
+	  text-align: center;
+    font-size: 24px; /* Adjust the font size as needed */
+    color: gold; /* Set the color of the stars */
+}
+
+}

@@ -1,0 +1,133 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media all {
+  body.printView,
+  body.printView:before,
+  body.printView:after {
+    border: none !important;
+  }
+
+  body,
+  html {
+    width: 100vw;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .certificate-wrapper {
+    width: 297mm;
+    height: 210mm;
+    line-height: normal;
+    margin: 1% auto;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0mm 70mm;
+
+    position: relative;
+  }
+
+  .certificate-wrapper .certificate-background {
+    width: 297mm;
+    height: 210mm;
+    overflow: hidden;
+    position: absolute;
+  }
+  /* certifiacte background */
+
+  .certificate-wrapper .certificate-background .square1 {
+    background-color: #f05654;
+    position: absolute;
+    transform: skew(35deg);
+    width: 15mm;
+    height: 30mm;
+    right: 13mm;
+    top: 0;
+  }
+  .certificate-wrapper .certificate-background .square2 {
+    background-color: #545454;
+    position: absolute;
+    transform: skew(35deg);
+    width: 40mm;
+    height: 30mm;
+    right: -26mm;
+    top: 0;
+  }
+  .certificate-wrapper .certificate-background .square3 {
+    background-color: #cbccce;
+    /* background-color: red; */
+    position: absolute;
+    transform: skew(35deg);
+    width: 50mm;
+    height: 30mm;
+    right: -43mm;
+    top: 30mm;
+  }
+
+  .certificate-background .square4 {
+    background-color: #f05654;
+
+    position: absolute;
+    transform: rotate(45deg);
+    width: 80mm;
+    height: 80mm;
+    left: -60mm;
+    bottom: -4mm;
+  }
+  .certificate-wrapper .certificate-background .square5 {
+    background-color: #545454dc;
+    position: absolute;
+    transform: skew(45deg);
+    width: 60mm;
+    height: 90mm;
+    left: -65mm;
+    bottom: 0mm;
+  }
+  .certificate-wrapper .certificate-background .square6 {
+    background: #8e9eab;
+    background: -webkit-linear-gradient(to right, #ffffff, #f4f1f1);
+    background: linear-gradient(to right, #ffffff, #f5f2f2);
+
+    position: absolute;
+    transform: rotate(45deg);
+    width: 80mm;
+    height: 80mm;
+    left: -48mm;
+    bottom: -3mm;
+  }
+
+  .certificate-wrapper .certificate-background .square7 {
+    background: #8e9eab61;
+    background: -webkit-linear-gradient(to right, #ffffff33, #f4f1f1);
+    background: linear-gradient(to right, #ffffff32, #f5f2f2);
+    position: absolute;
+    transform: rotate(45deg);
+    width: 120mm;
+    height: 70mm;
+    right: -80mm;
+    top: 30mm;
+  }
+
+  .certificate-wrapper .certificate-background .square8 {
+    background: #4a5d6ca7;
+
+    background: -webkit-linear-gradient(to right, #d6cdcdb7, #f4f1f1);
+    background: linear-gradient(to right, #dcd2d2a5, #f5f2f2);
+    position: absolute;
+    /* background-color: yellow; */
+    transform: skew(-135deg);
+    width: 34mm;
+    height: 38mm;
+    left: 21mm;
+    bottom: 0mm;
+  }
+}

@@ -1,0 +1,64 @@
+
+.certificate-wrapper {
+    overflow: hidden;
+    width: 297mm;
+    height: 210mm;
+    position: relative;
+    background: #E6E7E9;
+    line-height: normal;
+}
+.left-top-big{
+    width: 0;
+    height: 0;
+    border-top: 250pt solid #D2D3D5;
+    border-right: 250pt solid transparent;
+    position: absolute;
+    top: 50mm;
+  }
+.left-top-mid{
+    width: 0;
+    height: 0;
+    border-top: 250pt solid red;
+    border-right: 250pt solid transparent;
+    position: absolute;
+    top:20mm;
+    left: 0;
+}
+.left-top-small{
+    width: 0;
+    height: 0;
+    border-top: 200pt solid #414143;
+    border-right: 200pt solid transparent;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.right-bottom-big{
+    width: 0;
+    height: 0;
+    border-bottom: 250pt solid #D2D3D5;
+    border-left: 250pt solid transparent;
+    position: absolute;
+    bottom: 50mm;
+    right: 0;
+}
+.right-bottom-mid{
+    width: 0;
+    height: 0;
+    border-bottom: 250pt solid red;
+    border-left: 250pt solid transparent;
+    position: absolute;
+    bottom: 20mm;
+    right: 0;
+}
+.right-bottom-small{
+    width: 0;
+    height: 0;
+    border-bottom: 200pt solid #414143;
+    border-left: 200pt solid transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+ 
