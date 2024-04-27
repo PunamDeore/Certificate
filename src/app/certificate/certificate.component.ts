@@ -1,3 +1,4 @@
+
 import { CommonModule } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
@@ -11,8 +12,9 @@ import { FormsModule } from '@angular/forms';
   imports: [CommonModule, HttpClientModule, FormsModule]
 })
 export class CertificateComponent implements OnInit{
-    designFolders: string[] = ['punam', 'ketan', 'mayur']; // Update with your actual design folder names
+    designFolders: string[] = ['akanksha','dipak','jaiminkumar','kalpesh','punam', 'ketan', 'mayur', 'sagar','saurabh','shivani']; // Update with your actual design folder names
     selectedDesignFolder: string = '';
+  renderer: any;
   
     constructor(private http: HttpClient) {}
   
@@ -33,7 +35,7 @@ export class CertificateComponent implements OnInit{
     }
   
     loadHTMLTemplate(selectedFolder: string) {
-      this.http.get(`assets/${selectedFolder}/preview.html`, { responseType: 'text' }).subscribe((data) => {
+      this.http.get(`assets/${selectedFolder}/index.html`, { responseType: 'text' }).subscribe((data) => {
         // Update certificateTemplate with the loaded HTML
         this.certificateTemplate = data;
       });
@@ -42,10 +44,13 @@ export class CertificateComponent implements OnInit{
     loadCSS(selectedFolder: string) {
       const head = document.getElementsByTagName('head')[0];
       const link = document.createElement('link');
+
       link.rel = 'stylesheet';
       link.type = 'text/css';
-      link.href = `assets/${selectedFolder}/style.css`;
+      link.href = `assets/${selectedFolder}/css/style.css`;
       head.appendChild(link);
+     // this.renderer.appendChild(document.head, link);
+      
     }
   
     certificateTemplate: string = '';

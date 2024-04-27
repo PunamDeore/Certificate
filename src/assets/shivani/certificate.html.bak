@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMEAC-certificate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="certificate-wrapper">
+    <div class="certificate-wrapper">
+       
+		<!-- Certificate background -->
+		<div class="certificate-background">
+			<div class="tri1"></div>
+			<div class="tri2"></div>
+			<div class="tri3"></div>
+			 <div class="tri4"></div> 
+			<div class="tri5"></div>
+			<div class="tri6"></div>
+			<div class="tri7"></div>
+			<div class="tri8"></div>
+		</div>
+        
+		
+		<div class="container">
+			<div class="certificate-text">
+			  <h1 style="color: #ed5012fb;">CERTIFICATE</h1>
+			  <h3>of Appreciation</h3>
+			</div>
+	
+			<div class="cetificate-number-date">
+			  <p>Certificate Number: 1234</p>
+			  <p>Date: 26-01-2024</p>
+			</div>
+		  <!-- </div> -->
+	
+		  <div>
+			<div class="candidate-credentials">
+			  <div>
+				<p>This Certificate is proudly presented to</p>
+			  </div>
+			  <div class="candidate-name">
+				<h1 style="color: #ed5012fb;">Shivani Jadhav</h1>
+			  </div>
+	
+			  <div class="candidate-credentials1">
+				<p>
+				  for successfully completing the training course as prescribed by
+				  the organisation
+				</p>
+			  </div>
+			</div>
+		  </div>
+	
+		  <div class="signature-name-address">
+			<div class="signature-credentials">
+			  <div class="subclass">
+				<img
+				  src="president.png"
+				  alt="president-sign"
+				  width="100mm"
+				/>
+				<span>Signature of President</span>
+			  </div>
+	
+			  <div class="subclass1">
+				<img
+				  src="director.png"
+				  alt="director-sign"
+				  width="100mm"
+				  height="34mm"
+				/>
+				<span> Signature of Director</span>
+			  </div>
+			</div>
+	
+			<div class="organisation-address">
+			  <div class="logo-name">
+				<img
+				  class="org-logo"
+				  src="D:\MMEAC\MMEAC assignments\assignment 3\org-logo.png"
+				  alt="org-logo"
+				  width="150mm"
+				  height="70mm"
+				/>
+				<h4>Maha Mission Education and Career Council</h4>
+			  </div>
+	
+			  <div >
+				
+				<p>
+				  Office No. 404, Vastu Viva, Besids Sanket Inn, Bhumkar Chowk
+				  Wakad, Pune, Maharashtra - 411057
+				</p>
+			  </div>
+			</div>
+		  </div>
+	
+		  <div class="logo">
+			<img src="D:\MMEAC\MMEAC assignments\assignment 3\logo.png" alt="logo" width="200mm" height="150" />
+		  </div>
+	      </div>
+	</div>
+	</div>
+</body>
+</html>

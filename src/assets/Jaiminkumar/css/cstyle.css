@@ -1,0 +1,360 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lobster&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lobster&family=Pacifico&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lobster&family=Pacifico&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');
+
+/* Import Local Fonts */
+@font-face {
+  font-family: 'sub';
+  src: url("../fonts/AlexBrush-Regular.ttf");
+}
+@font-face {
+  font-family: 'cname';
+  src: url("../fonts/New Walt Disney.ttf");
+}
+
+/* Media Query for Print View */
+@media print {
+  body.printView,
+  body.printView:before,
+  body.printView:after {
+    border: none !important;
+  }
+}
+
+/* Certificate Wrapper */
+.certificate-wrapper {
+  overflow: hidden;
+  width: 297mm;
+  height: 210mm;
+  position: relative;
+  border-radius: 10px;
+  margin: 10px 400px 10px 10px;
+}
+
+/* Certificate Background */
+.certificate-wrapper .certificate-background {
+  left: 0mm;
+  top: auto;
+  width: 297mm;
+  height: 210mm;
+  overflow: hidden;
+  position: relative;
+  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+  border-radius: 10px;
+}
+
+/* Certificate Content */
+.certificate-wrapper .certificate-content {
+  top: 20mm;
+  right: 20mm;
+  bottom: 20mm;
+  left: 20mm;
+  position: absolute;
+}
+
+/* Certificate Title */
+.certificate-wrapper .certificate-content .title {
+  position: absolute;
+  left: 0mm;
+  right: 0mm;
+  font-size: 60pt;
+  text-align: center;
+  margin: auto;
+  font-family: "Lobster", sans-serif;
+  line-height: normal;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Serial Number */
+.certificate-wrapper .certificate-content .sr-no {
+  position: absolute;
+  left: 0mm;
+  top: 0mm;
+  font-size: 16pt;
+  font-family: "Lobster", sans-serif;
+}
+
+/* Organization Logo */
+.certificate-wrapper .certificate-content .org-logo {
+  left: -2mm;
+  bottom: 1mm;
+  position: absolute;
+  z-index: 2;
+  width: 79mm;
+  height: 20mm;
+}
+
+.certificate-wrapper .certificate-content .org-logo img {
+  width: auto;
+  max-height: 22mm;
+  max-width: 100%;
+  border-radius: 45px;
+}
+
+/* Badge Logo */
+.certificate-wrapper .certificate-content .badge-logo {
+  left: 108mm;
+  bottom: 41mm;
+  position: absolute;
+  z-index: 2;
+  width: 79mm;
+  height: 20mm;
+  border-radius: 55px;
+}
+
+.certificate-wrapper .certificate-content .badge-logo img {
+  width: 100%;
+  height: auto;
+  border-radius: 55px;
+}
+
+/* Certificate Subtitle */
+.certificate-wrapper .certificate-content .subtitle {
+  position: absolute;
+  left: 0mm;
+  top: 29mm;
+  right: 0mm;
+  color: #41c718fd;
+  font-family: 'sub';
+  font-size: 30pt;
+  text-align: center;
+  margin: auto;
+}
+
+/* Initial Content */
+.certificate-wrapper .certificate-content .initial-content {
+  position: absolute;
+  left: 0mm;
+  top: 45mm;
+  right: 0mm;
+  font-family: "Lobster", sans-serif;
+  font-size: 18pt;
+  text-align: center;
+  margin: auto;
+}
+
+/* Candidate Name */
+.certificate-wrapper .certificate-content .candidate-name {
+  position: absolute;
+  left: 0mm;
+  top: 52mm;
+  right: 0mm;
+  font-family: 'sub';
+  font-size: 55pt;
+  color: #143b47;
+  text-align: center;
+  margin: auto;
+  text-decoration: underline;
+}
+
+/* Main Content */
+.certificate-wrapper .certificate-content .main-content {
+  position: absolute;
+  left: 15mm;
+  top: 74mm;
+  right: 15mm;
+  font-size: 18pt;
+  font-family: "Lobster", sans-serif;
+  text-align: center;
+  margin: auto;
+  line-height: normal;
+  border: none;
+}
+
+.certificate-wrapper .certificate-content .main-content p {
+  margin-top: 3mm;
+}
+
+/* Certificate Logo */
+.certificate-wrapper .certificate-content .certificate-logo {
+  position: absolute;
+  left: auto;
+  top: 20mm;
+  right: 15mm;
+  z-index: 1;
+}
+
+.certificate-wrapper .certificate-content .certificate-logo img {
+  width: auto;
+  height: 30mm;
+  max-width: 60mm;
+}
+
+/* Date */
+.certificate-wrapper .certificate-content .date {
+  position: absolute;
+  left: auto;
+  top: 1mm;
+  right: 1mm;
+  font-size: 14pt;
+  font-family: "Lobster", sans-serif;
+}
+
+/* President Signature */
+.certificate-wrapper .certificate-content .sign-president-img {
+  top: 111mm;
+  left: 15mm;
+  width: 40mm;
+  height: 20mm;
+  position: absolute;
+  border-radius: 10px;
+}
+
+/* Director Signature */
+.certificate-wrapper .certificate-content .sign-director-img {
+  top: 111mm;
+  left: 200mm;
+  width: 40mm;
+  height: 20mm;
+  position: absolute;
+  border-radius: 10px;
+}
+
+/* Director Signature Content */
+.certificate-wrapper .certificate-content .sign-director {
+  left: 200mm;
+  top: 133mm;
+  font-size: 12pt;
+  border-top: 0.5pt solid;
+  line-height: 8mm;
+  position: absolute;
+}
+
+/* President Signature Content */
+.certificate-wrapper .certificate-content .sign-president {
+  left: 15mm;
+  top: 133mm;
+  font-size: 12pt;
+  border-top: 0.5pt solid;
+  line-height: 8mm;
+  position: absolute;
+}
+
+/* Organization Name */
+.certificate-wrapper .certificate-content .org-name {
+  position: absolute;
+  left: auto;
+  bottom: 12mm;
+  right: 67mm;
+  text-align: right;
+  font-family: "Signika", sans-serif;
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+/* Organization Address */
+.certificate-wrapper .certificate-content .org-address {
+  right: 44mm;
+  bottom: 0mm;
+  width: 170mm;
+  text-align: center;
+  font-family: "Signika", sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+  position: absolute;
+}
+
+.certificate-wrapper .certificate-content .org-address p {
+  margin-bottom: 0mm;
+  margin-top: 0mm;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 767px) {
+  .certificate-wrapper {
+    width: 100vw;
+    height: auto;
+    margin: 0;
+  }
+
+  .certificate-wrapper .certificate-background {
+    width: 100vw;
+    height: auto;
+  }
+
+  .certificate-wrapper .certificate-content {
+    position: static;
+    padding: 20px;
+  }
+
+  /* Adjust font sizes and positioning for smaller screens */
+  .certificate-wrapper .certificate-content .title {
+    font-size: 40pt;
+  }
+
+  .certificate-wrapper .certificate-content .subtitle {
+    font-size: 24pt;
+  }
+
+  .certificate-wrapper .certificate-content .candidate-name {
+    font-size: 36pt;
+  }
+
+  .certificate-wrapper .certificate-content .main-content {
+    font-size: 16pt;
+  }
+
+  /* Adjust logo sizes and positioning for smaller screens */
+  .certificate-wrapper .certificate-content .org-logo,
+  .certificate-wrapper .certificate-content .badge-logo {
+    width: 50vw;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .certificate-wrapper .certificate-content .org-logo {
+    bottom: 10px;
+  }
+
+  .certificate-wrapper .certificate-content .badge-logo {
+    bottom: 60vw;
+  }
+
+  /* Adjust signature sizes and positioning for smaller screens */
+  .certificate-wrapper .certificate-content .sign-president-img,
+  .certificate-wrapper .certificate-content .sign-director-img {
+    width: 30vw;
+    height: auto;
+  }
+
+  .certificate-wrapper .certificate-content .sign-president-img {
+    left: 5vw;
+    top: 80vw;
+  }
+
+  .certificate-wrapper .certificate-content .sign-director-img {
+    left: 65vw;
+    top: 80vw;
+  }
+
+  .certificate-wrapper .certificate-content .sign-president,
+  .certificate-wrapper .certificate-content .sign-director {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 85vw;
+    font-size: 10pt;
+  }
+
+  .certificate-wrapper .certificate-content .sign-director {
+    top: 95vw;
+  }
+
+  /* Adjust organization name and address for smaller screens */
+  .certificate-wrapper .certificate-content .org-name {
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 20px;
+    text-align: center;
+  }
+
+  .certificate-wrapper .certificate-content .org-address {
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 40px;
+    width: 80%;
+  }
+}

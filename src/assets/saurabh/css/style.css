@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Diplomata+SC&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lobster&family=Pacifico&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap'); 
+
+@font-face {
+  font-family: sub;
+  src: url("../fonts/AlexBrush-Regular.ttf");
+}
+
+@media all {
+	body.printView, body.printView:before, body.printView:after { 
+		border : none !important;
+	}
+
+	body {
+		background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+	}
+
+	.certificate-wrapper {
+	  overflow: hidden;
+	  width: 297mm;
+	  height: 210mm;
+	  position: relative;
+	  line-height: normal;
+	  margin:auto;
+	  background-color: white;
+	  z-index: 1;
+	}
+
+	.certificate-wrapper .certificate-background {
+	  left: 0mm;
+	  top: auto;
+	  width: 297mm;
+	  height: 210mm;
+	  overflow: hidden;
+	  position: relative;
+	}
+
+	.certificate-wrapper .certificate-background .boxx {
+	  width: 277mm;
+	  height: 190mm;
+	  opacity: 0.2;
+	  border:4px solid black !important;
+	  position: absolute;
+	  margin-top: 9mm;
+	  margin-left: 9mm;	  
+	}
+
+	.certificate-wrapper .certificate-content {
+	  top: 20mm;
+	  right: 20mm;
+	  bottom: 20mm;
+	  left: 20mm;
+	  float: left;
+	  width: 70%;
+	  position: absolute;
+	}
+
+	.certificate-wrapper .certificate-content .title {
+	  position: absolute;
+	  left: 19mm;
+	  top: 9mm;
+	  font-size: 60pt;
+	  text-align: center;
+	  margin: auto;
+	  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	  font-weight: bold;
+	  color:#414143;
+	  line-height: normal;
+	}
+
+	.certificate-wrapper .certificate-content .sr-no {
+	  position: absolute;
+	  left: -7mm;
+	  top: -9mm;
+	  font-size: 16pt;
+	  position: absolute;
+	  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	}
+
+	.certificate-wrapper .certificate-content .org-logo {
+	  left: -1mm;
+	  bottom: 11mm;
+	  position: absolute;
+	  z-index: -1;
+	  width: 79mm;
+	  height: 20mm;
+	}
+
+	.certificate-wrapper .certificate-content .org-logo img {
+	  width: 80%;
+	  mix-blend-mode: hard-light;
+	  border-radius: 45px;
+	  background-image: none;
+	  z-index: -1;
+	  position: absolute;
+	}
+
+	.certificate-wrapper .certificate-content .subtitle {
+	  position: absolute;
+	  left: 0mm;
+	  top: 37mm;
+	  right: 26mm;
+	  color: #414143 !important;
+	  font-family:  Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+	  font-weight: 700;
+	  font-size:25pt;
+	  text-align: center;
+	  margin: auto;
+	}
+
+	.certificate-wrapper .certificate-content .initial-content {
+	  left: 0mm;
+	  top: 61mm;
+	  right: 23mm;
+	  font-size: 14pt;
+	  text-align: center;
+	  margin: auto;
+	  width: 151mm;
+	  position: absolute;
+	  background-color: #F7941D;
+	  height: 7mm;
+	  color: white;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  font-weight: bold;
+	}
+
+	.certificate-wrapper .certificate-content .candidate-name {
+	  position: absolute;
+	  left: -26mm;
+	  top: 80mm;
+	  right: 0mm;
+	  font-family:"sub";
+	  font-size: 50pt;
+	  color: #414143 !important;
+	  text-align: center;
+	  margin: auto;
+	  position: absolute;
+	}
+
+	.certificate-wrapper .certificate-content .main-content {
+	  position: absolute;
+	  left: -5mm;
+	  top: 100mm;
+	  right: 15mm;
+	  font-size: 14pt;
+	  text-align: center;
+	  margin: auto;
+	  position: absolute;
+	  border : none;
+	  line-height : normal;
+	}
+
+	.certificate-wrapper .certificate-content .main-content p {
+		margin-top: 3mm;
+	}
+	
+	.certificate-wrapper .certificate-content .certificate-logo {
+	  	left: 188mm;
+		bottom: 53mm;
+		position: absolute;
+		z-index: 2;
+		width: 79mm;
+		height: 20mm;
+	}
+
+	.certificate-wrapper .certificate-content .certificate-logo img {
+	  height: auto;
+	  width: 69mm;
+	}
+
+	.certificate-wrapper .certificate-content .date {
+	  position: absolute;
+	  left: 156mm;
+	  top: -9mm;
+	  right: 1mm;
+	  font-size: 16pt;
+	  position: absolute;
+	  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	}
+
+	.certificate-wrapper .certificate-content .sign-president-img{
+		top: 122mm;
+		left: 21mm;
+		width : 40mm;
+		height : 20mm;
+		position : absolute;
+	}
+
+	.certificate-wrapper .certificate-content .sign-director-img{
+		top : 120mm;
+		left: 112mm;
+		width : 40mm;
+		height : 20mm;
+		position : absolute;
+	}
+
+	.certificate-wrapper .certificate-content .sign-director {
+	  left: 113mm;
+	  top: 143mm;
+	  font-size: 12pt;
+	  border-top: 0.5pt solid;
+	  line-height : 8mm;
+	  position: absolute;
+	  font-weight: 900;
+	}
+
+	.certificate-wrapper .certificate-content .sign-president {
+	  left: 21mm;
+	  top: 143mm;
+	  font-size: 12pt;
+	  border-top: 0.5pt solid;
+	  line-height : 8mm;
+	  position: absolute;
+	  font-weight: 900;
+	}
+
+	.certificate-wrapper .certificate-content .org-name {
+	  left: auto;
+	  bottom: 6mm;
+	  right: -48mm;
+	  text-align: right;
+	  font-size: 18pt;
+	  font-weight: bold;
+	  position: absolute;
+	  font-family: "Signika",sans-serif;
+	}
+
+	.certificate-wrapper .certificate-content .org-address {
+	  bottom: -9mm;
+	  width: 170mm;
+	  text-align: center;
+	  right:-71mm;
+	  font-size: 14pt;
+	  font-weight: bold;
+	  position: absolute;
+	  line-height: 2px;
+	  font-family: "Signika",sans-serif;
+	}
+
+	.certificate-wrapper .certificate-background .topbox{
+		width: 100%;
+		height: 6pt;
+		background-color: rgb(0 0 0 / 95%);
+		position: absolute;
+		opacity: 0.8;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+
+	.certificate-wrapper .certificate-background .leftbox{
+		width: 6pt;
+		height: 100%;
+		background-color:rgb(0 0 0 / 95%);
+		position: absolute;
+		opacity: 0.8;
+		top: 0;
+		left: 0;
+	}
+
+	.certificate-wrapper .certificate-background .rightbox{
+		width: 6pt;
+		height: 100%;
+		background-color: rgb(0 0 0 / 95%);
+		position: absolute;
+		opacity: 0.8;
+		top: 0;
+		right: 0;
+	}
+
+	.certificate-wrapper .certificate-background .bottombox{
+		width: 100%;
+		height: 6pt;
+		background-color: rgb(0 0 0 / 95%);
+		position: absolute;
+		opacity: 0.8;
+		bottom: 0;
+		left: 0;
+	}
+
+	.certificate-wrapper .certificate-background .corleft{
+		height: 90pt;
+		width: 15pt;
+		background-color: #F7941D;
+		position: absolute;
+		top: -7pt;
+		left: 0;
+		transform: skewY(-45deg);
+	}
+
+	.certificate-wrapper .certificate-background .cortop{
+		width: 90pt;
+		height: 15pt;
+		background-color: #F7941D;
+		position: absolute;
+		left: -7pt;
+		top: 0;
+		transform: skewX(-45deg);
+		z-index: 1;
+	}
+
+	.certificate-wrapper .certificate-background .corright{
+		height: 90pt;
+		width: 15pt;
+		background-color: #F7941D;
+		position: absolute;
+		top: 513pt;
+		right: 0;
+		transform: skewY(-45deg);
+	}
+
+	.certificate-wrapper .certificate-background .corbtm{
+		height: 15pt;
+		width: 90pt;
+		background-color: #F7941D;
+		position: absolute;
+		right: -7pt;
+		bottom: 0;
+		transform: skewX(-45deg);
+	}
+
+	.certificate-wrapper .certificate-background .bx1{
+		width: 7mm;
+		height: 7mm;
+		background-color: #ffffff;
+		bottom: 122mm;
+		position: absolute;
+		left: 35mm;
+		transform: rotate(45deg);
+		z-index: 1;
+	}
+
+	.certificate-wrapper .certificate-background .bx2{
+		width: 7mm;
+		height: 7mm;
+		background-color: #ffffff;
+		bottom: 122mm;
+		position: absolute;
+		right: 107mm;
+		transform: rotate(45deg);
+		z-index: 1;
+	}
+
+	.certificate-wrapper .certificate-background .verticlebox{
+		height: 73%;
+		background-color:#414143 !important;
+		width: 15%;
+		position: absolute;
+		left: 220mm;
+		top: 0mm;
+	}
+
+	.certificate-wrapper .certificate-background .yellowbox{
+		height: 73%;
+		background-color: #F7941D;
+		width: 3%;
+		position: absolute;
+		left: 256mm;
+		top: 0mm;
+	}
+
+	.certificate-wrapper .certificate-background .circle{
+		height: 223px;
+		background-color: #ffffff;
+		width: 205px;
+		position: absolute;
+		left: 215mm;
+		top: 118mm;
+		border-radius: 50%;
+	}
+}
+
+	 

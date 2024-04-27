@@ -1,0 +1,358 @@
+
+.certificate-wrapper {
+    overflow: hidden;
+    width: 297mm;
+    height: 210mm;
+    position: absolute;
+    /*background:#ebebeb;*/
+}
+
+.content{
+    padding: 10mm;
+    right: 20mm;
+    left: 20mm;
+    top: 20mm;
+    bottom: 20mm;
+    background-color:#ffffff;
+    position:absolute;
+    color:  #414143;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+/*.upparcase{
+    text-transform: uppercase;
+}*/
+
+
+.sr-no {
+	     position: absolute;
+    left: -16mm;
+    top: -6mm;
+    font-size: 8pt;
+    position: absolute;
+	}
+	
+.date {
+	     position: absolute;
+    left: auto;
+    top: 22mm;
+    right: -14mm;
+    font-size: 14pt;
+    position: absolute;
+
+	}
+
+.title{
+	
+           position: absolute;
+    top: 6px;
+    left: -29px;
+    font-size: 45.5pt;
+    text-align: left;
+    margin: auto;
+ text-transform: uppercase;
+}
+
+.sub-title{
+	    position: absolute;
+    top: 67px;
+    left: -21px;
+    font-size: 21px;
+    text-align: left;
+    margin: auto;
+    text-align: justify-all;
+    margin: auto;
+    /* background: #f8c91e;*/
+	 text-transform: uppercase;
+}
+
+
+
+.candidate-name{
+         
+    padding: 11px;
+    font-style: italic;
+    font-size: 52px;
+    text-align: right;
+    font-family: dname;
+    margin-left: 46mm;
+    margin-right: -46mm;
+    text-align: center;
+    margin-top: 20mm;
+ 
+
+}
+
+.foot{
+        margin-top: 10mm;
+    height: 0%;
+    display: flex;
+    width: 57%;
+    margin-left: 240mm;
+    margin-right: 29mm;
+    text-align: center;
+    margin-top: 3mm;
+
+
+}
+.foot-box{
+    padding-top: 15mm;
+    width:40%;
+    padding-right:auto;
+	
+
+}
+
+.foot-text{
+   font-weight: bold;
+   padding: auto;
+   
+   
+}
+
+
+.foot-text-uppercase{
+    padding: auto;
+    right: 0mm;
+	
+	margin-left: 100mm;
+    margin-right: 10mm;
+    text-align: center;
+    margin-top: 3mm;
+}
+
+
+
+				
+.main-content{
+        margin-left: 90mm;
+    margin-right: -7mm;
+    text-align: center;
+    margin-top: -1mm;
+
+}
+
+.right-top-big-black{
+       border-top: 110pt solid black;
+    border-left: 145pt solid #ffffff00;
+    border-right: 300pt solid black;
+    position: absolute;
+    top: -21mm;
+    left: 397pt;
+
+}
+
+
+
+.right-top-middle-red{
+   
+        border-top: 83pt solid rgb(237, 3, 3);
+        border-left: 111pt solid transparent;
+        border-right: 305pt solid rgb(255, 0, 0);
+        top: -23mm;
+        left: 450pt;
+        position: absolute;
+}
+.righttopblack{   
+     border-top: 94pt solid rgb(0, 0, 0);
+    border-left: 126pt solid transparent;
+    border-right: 321pt solid rgb(0, 0, 0);
+    top: -40mm;
+    left:449pt;
+    position: absolute;
+}
+
+.proud{color: white;
+    margin-left: 220mm;
+    margin-right: 83mm;
+    text-align: center;
+    top: 40mm;
+    position: absolute;
+    /* background-color: black; */
+    size: 54px;
+    border-left: 20pt solid transparent;
+    border-top: 32.75pt solid black;
+    border-right: 497pt solid black;
+
+
+}
+.initial-content{
+       color: rgb(255 255 255);
+    position: absolute;
+    left: 570px;
+    top: 43mm;
+
+}
+
+
+
+.left-bottom-big-black
+{
+    border-bottom: 110pt solid black;
+    border-right: 145pt solid #ffffff00;
+    border-left: 300pt solid black;
+    position: absolute;
+    bottom: -21mm;
+    right: 397pt;
+    
+}
+
+.left-bottom-middle-red{
+   
+   border-bottom: 83pt solid rgb(237, 3, 3);
+    border-right: 111pt solid transparent;
+    border-left: 305pt solid rgb(255, 0, 0);
+    bottom: -23mm;
+    right: 450pt;
+    position: absolute;
+
+}
+
+
+.leftbottomblack{   
+ border-bottom: 94pt solid rgb(0, 0, 0);
+    border-right: 126pt solid transparent;
+    border-left: 321pt solid rgb(0, 0, 0);
+    bottom: -40mm;
+    right: 449pt;
+    position: absolute;
+}
+
+
+.chotu{
+   
+   
+     border-top: 32.75pt solid rgb(172 166 166);
+    border-right: 22pt solid rgb(172 172 166);
+    top: 40mm;
+    left: 256.25pt;
+    position: absolute;
+    transform: skew(212deg);
+
+
+
+}
+.motu{      
+ border-top: 32.75pt solid rgb(172 166 166);
+    border-right: 22pt solid rgb(172 172 166);
+    top: 40mm;
+    left: 283.25pt;
+    position: absolute;
+    transform: skew(212deg);
+
+
+}
+
+
+.top-gray{
+	border-top: 35pt solid #BDBDBD;
+    border-right: 599pt solid #BDBDBD;
+    top: -20mm;
+    left: -80pt;
+    position: absolute;
+
+	
+}
+
+.bottom-gray{
+	    border-bottom: 35pt solid #BDBDBD;
+    border-left: 667pt solid #BDBDBD;
+    top: 178mm;
+    left: 214pt;
+    position: absolute;
+
+}
+
+
+
+
+
+  
+  .certificate-logo{
+      size: 110.5pt;
+    max-width: 108%;
+    max-height: 55%;
+    position: absolute;
+    margin-right: 71mm;
+    margin-left: -557px;
+    top: 32mm;
+	
+
+}
+
+ .org-logo{
+          size: 110.5pt;
+    max-width: 68%;
+    max-height: 8%;
+    position: absolute;
+    margin-right: -109mm;
+    margin-left: -471px;
+    top: -5mm;
+
+	
+
+}
+
+
+.sign-president-img{     
+top: 141mm;
+    left: 193mm;
+    width: 42mm;
+    height: 17mm;
+    position: absolute;
+
+	}
+	
+	.sign-director-img{
+		top: 143mm;
+    left: 113mm;
+    width: 45mm;
+    height: 13mm;
+    position: absolute;
+	}
+	
+	 .sign-director {
+		 
+	         left: 115mm;
+    top: 160mm;
+    font-size: 13pt;
+    border-top: 2.5pt solid;
+    line-height: 8mm;
+    position: absolute;
+	}
+	
+	
+	.sign-president {
+	           left: 194mm;
+    top: 160mm;
+    font-size: 13pt;
+    border-top: 2.5pt solid;
+    line-height: 8mm;
+	    position: absolute;
+
+
+	}
+
+
+	.org-address {
+	     right: -13mm;
+    bottom: -6mm;
+    width: 170mm;
+    text-align: right;
+    font-size: 12pt;
+    font-weight: bold;
+    position: absolute;
+	}
+	.org-address p {
+	  margin-bottom: 0mm;
+	  margin-top : 0mm;
+	}
+	
+	
+	@font-face {
+    font-family:dname;
+    src: url("font/ananda_2/f2.ttf");
+	}

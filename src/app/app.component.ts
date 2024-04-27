@@ -13,6 +13,9 @@ import { FormsModule } from '@angular/forms';
   providers: [HttpClientModule]
 })
 export class AppComponent {
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
 
 }
 
