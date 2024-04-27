@@ -1,28 +1,18 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
-
-import { AppComponent } from './app.component';
-import { DisplayDesignComponent } from './display-design/display-design.component';
-
-@NgModule({
-  declarations: [
-    AppComponent,
-    DisplayDesignComponent ],
-  imports: [
-    BrowserModule,
-    HttpClientModule
-  ],
-  providers: []
-  bootstrap: [AppComponent]
-})
-export class AppModule { }
-
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
+import { CertificateComponent } from './certificate/certificate.component';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  template: '<app-display-design></app-display-design>',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss'],
+  imports:[CertificateComponent, CommonModule, FormsModule],
+  standalone: true,
+  providers: [HttpClientModule]
 })
-export class AppComponent {}
+export class AppComponent {
+
+}
+
