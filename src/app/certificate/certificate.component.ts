@@ -41,17 +41,33 @@ export class CertificateComponent implements OnInit{
       });
     }
   
-    loadCSS(selectedFolder: string) {
+    /*loadCSS(selectedFolder: string) {
       const head = document.getElementsByTagName('head')[0];
       const link = document.createElement('link');
-
       link.rel = 'stylesheet';
       link.type = 'text/css';
       link.href = `assets/${selectedFolder}/css/style.css`;
       head.appendChild(link);
-     // this.renderer.appendChild(document.head, link);
+     //this.renderer.appendChild(document.head, link);
       
     }
+  */
+
+    loadCSS(selectedFolder: string) {
+      // Remove previously loaded CSS if any
+      const existingLink = document.querySelector('link[rel="stylesheet"]');
+      if (existingLink && existingLink.parentNode) {
+          existingLink.parentNode.removeChild(existingLink);
+      }
+  
+      // Load the CSS of the selected design
+      const head = document.getElementsByTagName('head')[0];
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = `assets/${selectedFolder}/css/style.css`;
+      head.appendChild(link);
+  }
   
     certificateTemplate: string = '';
   
